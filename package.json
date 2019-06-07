@@ -27,6 +27,7 @@
     "install-webcomponents": "cd libraries/__shared__/webcomponents && npm ci",
     "install-karma-mocha": "cd libraries/__shared__/karma-plugins/karma-mocha && npm ci",
     "build": "node index.js",
+    "preact" :"cd libraries/preact && npm run build",
     "start": "cd out && http-server -o"
   },
   "devDependencies": {
